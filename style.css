@@ -1,0 +1,553 @@
+body {
+    background-image: url(./assets/img/header-bg.png);
+    background-repeat: no-repeat;
+    background-size: 100% 567px;
+}
+
+.wrap {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1020px;
+}
+
+.head-info {
+    display: flex;
+    height: 169px;
+}
+
+.name-section {
+    display: flex;
+}
+
+div.logo {
+    width: 104px;
+}
+
+.logo img {
+    position: relative;
+}
+
+.logo1 {
+    width: 83px;
+    height: 83px;
+    margin-left: 0.2%;
+    margin-top: 28%;
+}
+
+.logo2 {
+    width: 84px;
+    height: 84px;
+    bottom: 52%;
+    transform: rotate(45deg);
+    opacity: 0.5;
+}
+
+.name h1 {
+    margin: 25% 0 0 -8%;
+    letter-spacing: 0.4px;
+    font-size: 41px;
+    color: #ffffff;
+    font-family: "Lucida Sans";
+    font-style: italic;
+}
+
+.navbar {
+    margin-top: 7%;
+    margin-left: 23.4%;
+    line-height: 41px;
+    width: 453px;
+    height: 41px;
+    position: relative;
+    font-family: "Segoe WP";
+    background: #f5c505;
+    box-shadow: -2px -5px #f5c50596, -6px -8px #f5c50596;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbar ul li a {
+    position: relative;
+    height: 41px;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: block;
+    color: #9b7d08;
+    font-size: 17px;
+    text-align: center;
+}
+
+.nav-about:hover,
+.nav-service:hover,
+.nav-contact:hover {
+    background: lightgrey;
+    color: black;
+}
+
+.nav-about,
+.nav-service,
+.nav-contact {
+    display: flex;
+    margin: auto;
+    position: relative;
+}
+
+div.about {
+    margin-left: 40%;
+}
+
+.nav-about {
+    width: 173px;
+    border-right: #9b7d08 solid 1px;
+}
+
+.about img {
+    position: absolute;
+    left: 21.5%;
+    top: 27%;
+}
+
+.nav-service {
+    width: 135px;
+    border-right: #9b7d08 solid 0.5px;
+}
+
+div.service {
+    margin-left: 31%;
+}
+
+.service img {
+    position: absolute;
+    top: 23%;
+    left: 9%;
+}
+
+.nav-contact {
+    width: 145px;
+}
+
+div.contact {
+    margin-left: 32%;
+}
+
+.contact img {
+    left: 9%;
+    top: 23%;
+    position: absolute;
+}
+
+/*VIDEO-SECTION*/
+
+.birds {
+    width: 549px;
+    height: 327px;
+}
+
+.video-section {
+    position: relative;
+    display: flex;
+    padding-left: 1%;
+    padding-bottom: 7%;
+}
+
+div.cool-min {
+    font-size: 63px;
+    letter-spacing: 1px;
+    font-family: "Asap";
+    text-align: center;
+    text-transform: uppercase;
+    width: 600px;
+}
+
+div.cool {
+    color: #f5c506;
+    padding-top: 15.6%;
+    padding-left: 3%;
+    line-height: 75px;
+    letter-spacing: 0.5px;
+}
+
+span.min {
+    color: #ffffff;
+    margin-left: 4%;
+}
+
+ /*ICON-AREA*/
+
+.icon-area {
+    height: 211px;
+    background-image: url(./assets/img/icon-area-bg.png);
+    background-repeat: no-repeat;
+    background-size: 100% 567px;
+}
+
+.icon-area .wrap {
+    display: flex;
+}
+
+.better-design,
+.customise,
+.its-free {
+    height: 211px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.better-design {
+    background-image: url(./assets/img/design.svg);
+    background-repeat: no-repeat;
+    background-position-x: 48%;
+    background-position-y: 43%;
+    border-left: 1px solid #d4d4d4;
+    border-right: 1px solid #d4d4d4;
+    width: 341px;
+}
+
+.customise {
+    width: 338px;
+}
+
+.its-free {
+    background-image: url(./assets/img/free.svg);
+    background-repeat: no-repeat;
+    background-position-x: 118px;
+    background-position-y: 53px;
+    width: 339px;
+    border-left: 1px solid #d4d4d4;
+    border-right: 1px solid #d4d4d4;
+}
+
+.img-cust img {
+    padding: 0 0 13% 16%;
+}
+
+.text-design,
+.text-cust,
+.text-free {
+    font-size: 27px;
+    color: #000000;
+    font-family: "Segoe UI";
+    font-weight: 300;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0;
+}
+
+p.text-cust {
+    padding-left: 5%;
+    padding-top: 0.2%;
+    letter-spacing: 0.2px;
+}
+
+p.text-design {
+    padding-top: 32.5%;
+    padding-left: 5%;
+    letter-spacing: 0.3px;
+}
+
+p.text-free {
+    letter-spacing: 0.3px;
+    padding-top: 33.5%;
+    padding-right: 5%;
+}
+
+/*ADVANTAGES*/
+
+.advantages {
+    background-image: url(./assets/img/yellow-container.svg);
+    height: 509px;
+}
+
+.advantages .headline p {
+    text-transform: uppercase;
+    width: 1024px;
+    text-align: left;
+    font-size: 37px;
+    color: #ffffff;
+    font-family: "PT Sans";
+    letter-spacing: 0.4px;
+    padding-top: 3.6%;
+}
+
+.text-video {
+    display: flex;
+    padding-top: 2%;
+}
+
+.blocks {
+    display: flex;
+    margin-top: 16px;
+}
+
+.lorem-text {
+    width: 340px;
+    height: 232px;
+    background: #ec9e03;
+    position: relative;
+}
+
+.lorem-text div p {
+    font-size: 29px;
+    letter-spacing: 0.4px;
+    line-height: 38px;
+    color: #ffffff;
+    font-family: "Segoe WP";
+    font-weight: 300;
+    padding: 4.5% 0 0 8.5%;
+}
+
+.plus {
+    position: absolute;
+    padding: 0.5% 0 0 92.7%;
+}
+
+.plus img:hover {
+    width: 120%;
+    height: 120%;
+    cursor: pointer;
+}
+
+.monkey-video {
+    width: 315px;
+    height: 231px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.twitter {
+    position: relative;
+    background: #ec9e03;
+    margin-left: 3.2%;
+    margin-top: 2%;
+    width: 330px;
+    height: 233px;
+}
+
+.twitter img {
+    padding-top: 17.5%;
+    padding-left: 25%;
+}
+
+.num22 {
+    position: absolute;
+    font-size: 25px;
+    letter-spacing: 0px;
+    line-height: 38px;
+    color: #ffffff;
+    font-family: "Segoe WP";
+    font-weight: 300;
+    padding: 2.4% 0 0 87%;
+}
+
+.twitter .plus2 img {
+    position: absolute;
+    padding: 0;
+    margin: 4% 0 0 93.5%;
+}
+
+.twitter .plus2 img:hover {
+    width: 4%;
+    height: 4%;
+    cursor: pointer;
+}
+
+.date {
+    background: #ddb101;
+    width: 112px;
+    height: 85px;
+    position: relative;
+}
+
+.date .num25 p {
+    font-size: 51px;
+    letter-spacing: 1px;
+    line-height: 38px;
+    color: #ffffff;
+    font-family: "Segoe UI";
+    font-weight: bold;
+    padding-top: 10%;
+    padding-left: 25%;
+}
+
+.date .month p {
+    font-size: 21px;
+    text-transform: uppercase;
+    letter-spacing: 0px;
+    line-height: 38px;
+    color: #b26529;
+    font-family: "Segoe UI";
+    padding-left: 28%;
+}
+
+input[type=range] {
+    -webkit-appearance: none;
+    margin: 4.3% 0 0 7.2%;
+    width: 896px;
+    border-radius: 58px;
+    background: rgba(255, 255, 255, 0.48);
+}
+
+input[type=range]:focus {
+    outline: none;
+}
+
+input[type=range]::-webkit-slider-thumb {
+    height: 15px;
+    width: 197px;
+    border-radius: 7px;
+    background: #ec9e03;
+    -webkit-appearance: none;
+}
+
+/*DEVICES*/
+
+.devices {
+    background-image: url(./assets/img/gray-container.png);
+    height: 496px;   
+}
+
+.devices .title p {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 43px;
+    color: #f5c506;
+    font-family: "PT Sans";
+    letter-spacing: 0.5px;
+    padding-left: 0.5%;
+    padding-top: 4%;
+}
+
+.devices .pict-text {
+    display: flex;
+}
+
+.devices .images {
+    display: flex;
+    position: relative;
+}
+
+.devices .desktop {
+    width: 100%;
+    height: 100%;
+    padding-top: 9.2%;
+    padding-left: 3.3%;
+}
+
+.devices .images .laptop {
+    padding: 17% 0 0 4.3%;
+}
+
+.devices .images .mobile {
+    padding: 36.5% 0 0 4.6%;
+}
+
+.percent {
+    position: absolute;
+    width: 116px;
+    height: 116px;
+    border-radius: 58px;
+    background-color: #f5c506;
+    margin-top: 0.6%;
+    margin-left: -0.2%;
+    z-index: 1;
+}
+
+.text-percent {
+    text-transform: uppercase;
+    font-size: 19px;
+    letter-spacing: 0px;
+    color: #ffffff;
+    font-family: "PT Sans Narrow";
+    font-weight: 700;
+    padding-top: 45%;
+    padding-left: 6%;
+}
+
+.list ul li {
+    width: 381px;
+    height: 45px;
+    font-size: 22px;
+    letter-spacing: 0px;
+    color: #a9a9a7;
+    font-family: "Open Sans";
+    font-weight: 400;
+}
+
+.list ul li:before {
+    content: '';
+    display: inline-block;
+    color: #f5c506;
+    height: 15px;
+    width: 15px;
+    background: #f5c506;
+    border-radius: 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-right: 20px;
+}
+
+.list ul li:nth-child(1) {
+    padding-top: 21.5%;
+    padding-left: 16.8%;
+    letter-spacing: 0.2px;
+}
+
+.list ul li:nth-child(1) span {
+    letter-spacing: -2px;
+}
+
+.list ul li:nth-child(2) {
+    padding: 0.3% 0 3.9% 17%;
+    line-height: 26.5px;
+    letter-spacing: 0.2px;
+}
+
+.list ul li:nth-child(3) {
+    padding: 0.8% 0 0 16.7%;
+    line-height: 26.5px;
+    letter-spacing: 0.2px;
+}
+
+.list ul li:nth-child(3) span {
+    letter-spacing: -2px;
+}
+
+.list ul li:nth-child(4) {
+    padding: 1% 75px 0 17%;
+    line-height: 27px;
+    letter-spacing: 0.2px;
+}
+
+/*FOOTER*/
+
+.footerr {
+    position: relative;
+    background: #4c4c4c;
+    height: 68px;
+    display: flex;
+    box-shadow: 0 -2px 4px 2px #333333;
+}
+
+.logo-footer img {
+    position: absolute;
+}
+
+.logo-end {
+    width: 56px;
+    height: 56px;
+    padding-top: 0.3%;
+}
+
+.footerr div h1 {
+    text-transform: uppercase;
+    color: #ffffff;
+    font-family: "Lucida Sans";
+    font-style: italic;
+    font-size: 29px;
+    text-align: left;
+    margin: 1.7% 0 0 6%;
+}
