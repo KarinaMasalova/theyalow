@@ -331,7 +331,7 @@ p.text-free {
     height: 233px;
 }
 
-.twitter img {
+.twitter-bird {
     padding-top: 17.5%;
     padding-left: 25%;
 }
@@ -405,6 +405,10 @@ input[type=range]::-webkit-slider-thumb {
     border-radius: 7px;
     background: #ec9e03;
     -webkit-appearance: none;
+}
+
+.quotes-and-form {
+    display: none;
 }
 
 /*DEVICES*/
@@ -693,7 +697,7 @@ input[type=range]::-webkit-slider-thumb {
     }
     
     p.text-design {
-        padding: 43% 7% 0 0px;
+        padding: 44% 7% 0 0px;
         letter-spacing: 0.2px;
     }
     
@@ -742,14 +746,93 @@ input[type=range]::-webkit-slider-thumb {
         margin: 1.5% 0 0 0;
         width: 100%;
         height: 234px;
+        
+        display: flex;
     }
     
-    .twitter img {
-        padding-top: 9.5%;
-        padding-left: 13%;
-        width: 25%;
+    .twitter-bird {
+        width: 50%;
+        padding: 0;
+    }
+
+    .twitter-img {
+        width: 50%;
+        padding: 19% 0 0 26%;
+    }
+
+    .quotes-and-form {
+        display: initial;
+        width: 49%;
+        padding-top: 4%;
+        padding-left: 4px;
+    }
+
+    .quote-1 img, .quote-2 img, .quote-3 img {
+        position: relative;
+    }
+
+    .quote-2 img {
+        padding-top: 3%;
+    }
+
+    .quote-3 img {
+        padding-top: 4%;
+    }
+
+    .quote-2 img, .quote-3 img {
+        opacity: 0.7;
+    }
+
+    .quote-1 p, .quote-2 p, .quote-3 p {
+        position: absolute;
+        width: 35%;
+        font-size: 13px;
+        color: #8f8e8e;
+        font-family: "Arial";
+        line-height: 14.5px;
+        word-spacing: 1px;
+        right: 10%;
+    }
+
+    .quote-1 p {
+        top: 14%;
+    }
+
+    .quote-2 p {
+        top: 38%;
     }
     
+    .quote-3 p {
+        bottom: 26%;
+    }
+
+    .form {
+        position: relative;
+        background: #fff;
+        margin: 3% 0 0 4.2%;
+        width: 86%;
+        height: 14%;
+        border: 1px solid rgba(0,0,0,0.15);
+        border-radius: 10px;
+    }
+
+    .tweet {
+        position: absolute;
+        background: #d79513;
+        bottom: 4.8%;
+        right: 4.9%;
+        width: 11%;
+        height: 13%;
+        border-radius: 0px 10px 10px 0px;
+    }
+
+    .tweet p {
+        font-size: 15px;
+        color: #ffffff;
+        font-family: "Arial";
+        padding: 7px 0 0 18%;
+    }
+
     .num22,
     .twitter .plus2 img,
     .date, 
@@ -765,6 +848,7 @@ input[type=range]::-webkit-slider-thumb {
     .devices .title p {
         font-size: 39px;
         letter-spacing: 2px;
+        word-spacing: 4px;
         padding: 6% 4px 0 0px;
     }
     
