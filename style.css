@@ -94,8 +94,8 @@ div.logo {
     position: relative;
 }
 
-div.about {
-    margin-left: 40%;
+.nav-about span {
+    margin-left: 27%;
 }
 
 .nav-about {
@@ -103,7 +103,7 @@ div.about {
     border-right: #9b7d08 solid 1px;
 }
 
-.about img {
+.nav-about img {
     position: absolute;
     left: 21.5%;
     top: 27%;
@@ -114,11 +114,11 @@ div.about {
     border-right: #9b7d08 solid 0.5px;
 }
 
-div.service {
-    margin-left: 31%;
+.nav-service span {
+    margin-left: 14%;
 }
 
-.service img {
+.nav-service img {
     position: absolute;
     top: 23%;
     left: 9%;
@@ -128,11 +128,11 @@ div.service {
     width: 145px;
 }
 
-div.contact {
-    margin-left: 32%;
+.nav-contact span {
+    margin-left: 15%;
 }
 
-.contact img {
+.nav-contact img {
     left: 9%;
     top: 23%;
     position: absolute;
@@ -621,15 +621,44 @@ input[type=range]::-webkit-slider-thumb {
         position: relative;
         box-shadow: none;
     }
-
-    /*navigation*/
     
     .navbar ul li a {
         font-size: 19px;
     }
-    
-    /*navigation*/
 
+    .navbar ul li a {
+        height: 62px;
+    }
+    
+    .nav-about span {
+        margin-left: 19%;
+    }
+
+    .nav-service {
+        width: 133px;
+    }
+
+    .nav-contact {
+        width: 148px;
+    }
+
+    .nav-about img {
+        width: 15%;
+        left: 23px;
+        top: 30%;
+    }
+
+    .nav-service img {
+        width: 18%;
+        left: 6px;
+        top: 30%;
+    }
+
+    .nav-contact img {
+        width: 20%;
+        left: 10px;
+        top: 30%;
+    }
 
     .video-section {
         padding: 0;
@@ -872,6 +901,7 @@ input[type=range]::-webkit-slider-thumb {
     
     .text-percent {
         padding-left: 7%;
+        padding-top: 43%;
     }
     
     .list {
